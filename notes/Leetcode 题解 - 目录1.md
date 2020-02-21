@@ -1,4 +1,4 @@
-
+本文从 Leetcode 中精选大概 200 左右的题目，去除了某些繁杂但是没有多少算法思想的题目，同时保留了面试中经常被问到的经典题目。
 
 # 算法思想
 
@@ -35,5 +35,6 @@
 
 
 
-</br><div align="center">🎨 </br></br> 关注公众号 CyC2018 获取更多精彩内容！在公众号后台回复关键字 **资料** 可领取一份技术面试复习思维导图，帮你理清多而杂的面试知识点。
-<div align="center"><img width="180px" src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg"></img></div>
+
+
+<div align="center"><img width="320px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/githubio/公众号二维码-2.png"></img></div>

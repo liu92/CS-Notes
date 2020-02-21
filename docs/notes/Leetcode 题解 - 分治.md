@@ -6,7 +6,9 @@
 
 # 1. 给表达式加括号
 
-[241. Different Ways to Add Parentheses (Medium)](https://leetcode.com/problems/different-ways-to-add-parentheses/description/)
+241\. Different Ways to Add Parentheses (Medium)
+
+[Leetcode](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) / [力扣](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/description/)
 
 ```html
 Input: "2-1-1".
@@ -51,7 +53,9 @@ public List<Integer> diffWaysToCompute(String input) {
 
 # 2. 不同的二叉搜索树
 
-[95. Unique Binary Search Trees II (Medium)](https://leetcode.com/problems/unique-binary-search-trees-ii/description/)
+95\. Unique Binary Search Trees II (Medium)
+
+[Leetcode](https://leetcode.com/problems/unique-binary-search-trees-ii/description/) / [力扣](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/description/)
 
 给定一个数字 n，要求生成所有值为 1...n 的二叉搜索树。
 
@@ -77,6 +81,9 @@ The above output corresponds to the 5 unique BST's shown below:
 
 ```java
 public List<TreeNode> generateTrees(int n) {
+    if (n < 1) {
+        return new LinkedList<TreeNode>();
+    }
     return generateSubtrees(1, n);
 }
 
@@ -105,5 +112,6 @@ private List<TreeNode> generateSubtrees(int s, int e) {
 
 
 
-</br><div align="center">🎨 </br></br> 关注公众号 CyC2018 获取更多精彩内容！在公众号后台回复关键字 **资料** 可领取一份技术面试复习思维导图，帮你理清多而杂的面试知识点。
-<div align="center"><img width="180px" src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg"></img></div>
+
+
+<div align="center"><img width="320px" src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/githubio/公众号二维码-2.png"></img></div>
